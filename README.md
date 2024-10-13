@@ -1,6 +1,6 @@
-# MiFengのblog :link: https://FrecklyComb1728.github.io 
-### :page_facing_up: [1](https://FrecklyComb1728.github.io/tag.html) 
-### :speech_balloon: 0 
-### :hibiscus: 60 
-### :alarm_clock: 2024-07-20 05:45:32 
+# MiFengのblog :link: https://FrecklyComb1728.github.io/blog 
+### :page_facing_up: [3](https://FrecklyComb1728.github.io/blog/tag.html) 
+### :speech_balloon: 2 
+### :hibiscus: 567 
+### :alarm_clock: 2024-10-13 17:00:14 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
