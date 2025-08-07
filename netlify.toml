@@ -1,0 +1,19 @@
+[build]
+  publish = "./.vitepress/dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+
+[[redirects]]
+  from = "/feed.xml"
+  to = "/feed.xml"
+  status = 200
+
+# 处理所有路径，确保SPA正常工作
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
