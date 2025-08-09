@@ -73,7 +73,7 @@ pnpm build
 [![Netlify Status](https://api.netlify.com/api/v1/badges/31ebe949-6ce7-46b7-a5fb-a73da20412d6/deploy-status)](https://app.netlify.com/sites/imsyy-blog/deploys)
 
 ### Code of Conduct
-![https://github.com/user-attachments/assets/6934c1dc-058f-4917-b435-3590bb246feb](https://blog.imbee.top/pages/about#Code_of_Conduct)
+![https://blog.imbee.top/pages/about#Code_of_Conduct](https://github.com/user-attachments/assets/6934c1dc-058f-4917-b435-3590bb246feb)
 
 
 ### This site is powered by Netlify
