@@ -5,8 +5,8 @@
       <!-- 介绍 -->
       <div class="about-item hello">
         <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 池鱼</span>
-        <span class="text3">是一名 正在HRT的MtF🏳‍⚧🏳‍⚧</span>
+        <span class="text2 title2">我是 蜜蜂QWQ</span>
+        <span class="text3">是一名 正在上学的学生</span>
       </div>
       <!-- 追求 -->
       <!--
