@@ -154,18 +154,18 @@
       <div class="about-item child">
         <div
           class="about-item map image"
-          style="background-image: url(https://raw.chiyu.it/other/tc.png)"
+          style="background-image: url(../images/maoming.png)"
         >
-          <span class="position">我现在住在 <strong>中国，江苏省，苏州市</strong></span>
+          <span class="position">我现在住在 <strong>中国，广东省，茂名市</strong></span>
         </div>
         <div class="about-itsem info">
           <div class="info-item">
             <span class="info-name">诞生于</span>
-            <span class="info-num" style="--color: #43a6c6">2010</span>
+            <span class="info-num" style="--color: #43a6c6">2011</span>
           </div>
           <div class="info-item">
             <span class="info-name">生日</span>
-            <span class="info-num" style="--color: #dfac46">0907</span>
+            <span class="info-num" style="--color: #dfac46">0805</span>
           </div>
         </div>
       </div>
@@ -174,21 +174,144 @@
     <div class="about-content" style="display: flex">
       <div class="about-item">
         <span class="tip">关于这个破站</span>
-        <span class="title2">一个记录自己生活的站点</span>
+        <span class="title2">一个记录自己生活的站点？</span>
         <p class="text">
-          首先感谢一下小恒提供的域名贡献
-        </p>
-        <p class="text">
-          写几句slogan好了
-        </p>
-        <p class="text">
-          <strong>跨过晨昏线，便是永夜。</strong>
-        </p>
+          这里我引用《DayLight》末尾独白：<br>
+          <strong @click="playAudio" class="clickable-text">Knowing that I was going to get better and looking forward to a time that I would feel good again, helped me to keep moving forward, and sometimes I had to be brave ,and it wasn't always easy sometimes I faltered, I had bad days But I realized that being brave isn't supposed to be easy, as for me I feel it's the key way to keep moving forward.</strong>
+        <br>—— Sam Berns</p>
+        
+      <!-- </div> -->
+    <!-- </div> -->
+    
+    <!-- 隐私协议部分 -->
+    <div id="Code_of_Conduct">
+      <!-- <div class="about-item"> -->
         <p class="text">
           我爱你们。
         </p>
+        <p> </p>
+        <h2>隐私协议</h2>
+        <p>本网站是一个静态网站，这意味着：</p>
+        <ul>
+          <li>我们不会在服务器端存储您的个人信息</li>
+          <li>网站内容是预先生成的，不会动态处理用户数据</li>
+          <li>我们不会主动收集或存储您的个人信息</li>
+        </ul>
+        
+        <h3>第三方服务</h3>
+        <p>尽管本网站本身是静态的，但我们使用了以下第三方服务，这些服务可能会收集和处理您的信息：</p>
+        
+        <h4>CDN 和托管服务</h4>
+        <p>根据您访问的节点不同，以下服务提供商可能会收集您的信息：</p>
+        
+        <p><strong>Cloudflare</strong></p>
+        <ul>
+          <li>可能收集的信息：IP 地址、访问时间、请求的页面、浏览器信息</li>
+          <li>用途：提供 CDN 服务、安全防护、性能优化</li>
+          <li>隐私政策：<a href="https://www.cloudflare.com/privacypolicy/" target="_blank">Cloudflare 隐私政策</a></li>
+        </ul>
+        
+        <p><strong>Netlify</strong></p>
+        <ul>
+          <li>可能收集的信息：IP 地址、访问日志、性能数据</li>
+          <li>用途：网站托管、部署服务</li>
+          <li>隐私政策：<a href="https://www.netlify.com/privacy/" target="_blank">Netlify 隐私政策</a></li>
+        </ul>
+        
+        <h4>分析和统计服务</h4>
+        
+        <p><strong>百度统计</strong></p>
+        <ul>
+          <li>可能收集的信息：访问页面、访问时间、地理位置、设备信息、浏览器信息</li>
+          <li>用途：网站流量分析、用户行为分析</li>
+          <li>隐私政策：<a href="https://tongji.baidu.com/web/help/article?id=330" target="_blank">百度统计隐私政策</a></li>
+        </ul>
+        
+        <p><strong>Google Analytics（谷歌分析）</strong></p>
+        <ul>
+          <li>可能收集的信息：匿名化的用户数据、页面浏览量、会话时长、地理位置</li>
+          <li>用途：网站性能分析、用户行为分析</li>
+          <li>隐私政策：<a href="https://policies.google.com/privacy" target="_blank">Google 隐私政策</a></li>
+        </ul>
+        
+        <p><strong>Google Ads（谷歌广告）</strong></p>
+        <ul>
+          <li>可能收集的信息：广告展示数据、点击数据、用户兴趣信息</li>
+          <li>用途：展示相关广告、广告效果分析</li>
+          <li>隐私政策：<a href="https://policies.google.com/technologies/ads" target="_blank">Google 广告隐私政策</a></li>
+        </ul>
+        
+        <p><strong>Umami 分析</strong></p>
+        <ul>
+          <li>可能收集的信息：页面浏览量、访问来源、设备类型（匿名化处理）</li>
+          <li>用途：网站流量统计和分析</li>
+          <li>特点：注重隐私保护，不使用 Cookie，数据匿名化处理</li>
+          <li>实时查看：您可以在网站导航栏中实时查看站点流量统计</li>
+        </ul>
+        
+        <h3>Cookie 和本地存储</h3>
+        <p>我们的网站可能使用以下技术：</p>
+        <ul>
+          <li><strong>Cookie</strong>：用于网站功能和第三方服务</li>
+          <li><strong>本地存储</strong>：用于保存用户偏好设置（如主题选择）</li>
+          <li><strong>会话存储</strong>：用于临时存储页面状态</li>
+        </ul>
+        
+        <h3>您的权利</h3>
+        <p>您有权：</p>
+        <ul>
+          <li>了解我们收集的信息类型</li>
+          <li>要求删除您的个人信息（如适用）</li>
+          <li>选择退出某些数据收集</li>
+          <li>禁用 Cookie 和 JavaScript（可能影响网站功能）</li>
+        </ul>
+        
+        <h3>如何保护您的隐私</h3>
+        <p>您可以通过以下方式保护您的隐私：</p>
+        <ul>
+          <li>使用隐私浏览模式</li>
+          <li>禁用第三方 Cookie</li>
+          <li>使用广告拦截器</li>
+          <li>使用 VPN 服务</li>
+          <li>定期清理浏览器数据</li>
+        </ul>
+        <h3>数据安全</h3>
+        <p>虽然我们不直接收集您的个人信息，但我们：</p>
+        <ul>
+          <li>使用 HTTPS 加密传输</li>
+          <li>选择信誉良好的第三方服务提供商</li>
+          <li>定期审查第三方服务的隐私政策</li>
+        </ul>
+        <h3>儿童隐私</h3>
+        <p>我们的网站不专门针对 14 岁以下的儿童。我们不会故意收集 14 岁以下儿童的个人信息。</p>       
+        <h3>隐私政策更新</h3>
+        <p>我们可能会不时更新本隐私政策。任何更改都会在此页面上发布，重大更改会通过网站公告通知用户。</p>
+        <h3>联系我们</h3>
+        <p>如果您对本隐私政策有任何疑问或关注，请通过以下方式联系我们：</p>
+        <ul>
+          <li>通过网站联系页面</li>
+          <li>发送邮件至网站管理员</li>
+        </ul>
+        <h3>滥用与版权举报</h3>
+        <p>如果您发现网站内容存在滥用、侵权或其他违法违规行为，请通过以下方式联系我们：</p>
+        <ul>
+          <li><strong>邮箱</strong>：wdsjwyf@gmail.com</li>
+          <li><strong>QQ</strong>：3979158171</li>
+        </ul>
+        <p>我们将认真对待每一个举报，并在收到举报后及时处理相关问题。</p>
+        
+        <h3>适用法律</h3>
+        <p>本隐私政策受中华人民共和国法律管辖。我们努力遵守适用的数据保护法律法规。</p>
+        
+        <hr>
+        
+        <p><em>本隐私政策旨在透明地说明我们的数据处理实践。我们建议您定期查看本政策以了解任何更新。</em></p>
       </div>
     </div>
+  </div>
+    
+    <!-- 隐藏的音频元素 -->
+    <audio ref="audioPlayer" :src="audioSrc" preload="none"></audio>
   </div>
 </template>
 
@@ -196,6 +319,31 @@
 import { getStatistics } from "@/api";
 
 const { theme } = useData();
+
+// 音频相关
+const audioPlayer = ref(null);
+const audioSrc = "https://cdn.mfawa.top/file/Sam_Berns_Monologue.mp3";
+const isPlaying = ref(false);
+
+// 播放/暂停音频
+const playAudio = () => {
+  if (!audioPlayer.value) return;
+  
+  if (isPlaying.value) {
+    audioPlayer.value.pause();
+    isPlaying.value = false;
+  } else {
+    audioPlayer.value.play().catch(error => {
+      console.error("音频播放失败:", error);
+    });
+    isPlaying.value = true;
+    
+    // 监听音频播放结束事件
+    audioPlayer.value.onended = () => {
+      isPlaying.value = false;
+    };
+  }
+};
 
 // 技能数据
 
@@ -218,12 +366,12 @@ const skillsData = [
     icon: "css3",
     link: "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
   },
-  {
-    name: "Vue",
-    color: "#41b883",
-    icon: "vue",
-    link: "https://cn.vuejs.org/",
-  },
+  // {
+  //   name: "NUXT.js",
+  //   color: "#41b883",
+  //   icon: "nuxtjs",
+  //   link: "https://nuxtjs.org/",
+  // },
   {
     name: "React",
     color: "#149ECA",
@@ -231,29 +379,17 @@ const skillsData = [
     link: "https://zh-hans.reactjs.org/",
   },
   {
-    name: "Node.js",
-    color: "#026E00",
-    icon: "nodejs",
-    link: "https://nodejs.org/",
-  },
-  {
-    name: "Python",
-    color: "#3776AB",
-    icon: "python",
-    link: "https://www.python.org/",
-  },
-  {
     name: "Docker",
     color: "#2496f2",
     icon: "docker",
     link: "https://www.docker.com/",
   },
-  {
-    name: "Git",
-    color: "#F05032",
-    icon: "git",
-    link: "https://git-scm.com/",
-  },
+  // {
+  //   name: "Java",
+  //   color: "#F05032",
+  //   icon: "java",
+  //   link: "https://java.com/",
+  // },
   {
     name: "Photoshop",
     color: "#31A8FF",
@@ -323,6 +459,17 @@ onMounted(() => {
       .text {
         font-size: 18px;
         margin: 0.6rem 0;
+        
+        .clickable-text {
+          cursor: pointer;
+          border-bottom: 1px dotted transparent;
+          transition: color 0.3s, border-color 0.3s;
+          
+          &:hover {
+            color: var(--main-color);
+            border-bottom-color: var(--main-color);
+          }
+        }
       }
       &.child {
         background-color: transparent;

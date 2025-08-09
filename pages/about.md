@@ -8,3 +8,4 @@ import About from "@/views/About.vue"
 </script>
 
 <About />
+

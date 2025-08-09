@@ -66,7 +66,7 @@ export const themeConfig = {
         {
           crossorigin: "anonymous",
           rel: "stylesheet",
-          href: "https://cdn.jsdmirror.com/gh/FrecklyComb1728/blog@main/fonts/xiaolai.css",
+          href: "https://cdn.jsdmirror.com/gh/FrecklyComb1728/blog@main/public/fonts/xiaolai.css",
         },
       ],
       // HarmonyOS font
