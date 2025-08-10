@@ -180,12 +180,12 @@
           <strong @click="playAudio" class="clickable-text">Knowing that I was going to get better and looking forward to a time that I would feel good again, helped me to keep moving forward, and sometimes I had to be brave ,and it wasn't always easy sometimes I faltered, I had bad days But I realized that being brave isn't supposed to be easy, as for me I feel it's the key way to keep moving forward.</strong>
         <br>—— Sam Berns</p>
         
-      <!-- </div> -->
-    <!-- </div> -->
+      </div>
+    </div>
     
-    <!-- 隐私协议部分 -->
+    <!-- 隐私协议部分
     <div id="Code_of_Conduct">
-      <!-- <div class="about-item"> -->
+      <div class="about-item">
         <p class="text">
           我爱你们。
         </p>
@@ -307,8 +307,8 @@
         
         <p><em>本隐私政策旨在透明地说明我们的数据处理实践。我们建议您定期查看本政策以了解任何更新。</em></p>
       </div>
-    </div>
-  </div>
+    </div> 
+  </div> -->
     
     <!-- 隐藏的音频元素 -->
     <audio ref="audioPlayer" :src="audioSrc" preload="none"></audio>
