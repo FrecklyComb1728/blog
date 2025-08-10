@@ -124,9 +124,10 @@ articleGPT: 本隐私政策旨在透明地说明我们的数据处理实践。�
 本隐私政策受中华人民共和国法律管辖。我们努力遵守适用的数据保护法律法规。
 
 ---
-## This site is powered by Netlify
-
+## Website powered
+> **This site is powered by**
 <a href="https://www.netlify.com">
-  <img width="114" height="50" alt="Deploys by Netlify" src="https://www.netlify.com/v3/img/components/netlify-dark.svg" />
+  <img width="114" height="50" alt="This site is powered by Netlify." src="https://www.netlify.com/v3/img/components/netlify-light.svg" />
 </a>
+
 
