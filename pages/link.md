@@ -28,10 +28,10 @@ import Link from "@/views/Link.vue";
 - 站点图片：`麻烦自行拍摄（不加也行）`
 
 ```yml
-name: 池鱼小栈
-desc: 一个示例页面
-url: https://example.com/
-avatar: https://example.com/favicon.ico
+name: MIFENG BLOG
+desc: 一个菜鸟的博客
+url: https://blog.imbee.top/
+avatar: https://cdn.mfawa.top/image/logo.svg
 screenshot: 麻烦自行拍摄（不加也行）
 ```
 

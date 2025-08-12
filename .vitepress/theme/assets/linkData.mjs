@@ -50,6 +50,18 @@ const linkData = [
         desc: "爱你所爱~ ❤",
         url: "https://2x.nz/",
       },
+      {
+        name: "鈴奈咲桜のBlog",
+        avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2731443459&spec=5",
+        desc: "愛することを忘れないで",
+        url: "https://blog.sakura.ink/",
+      },
+      {
+        name: "星辰の笔记",
+        avatar: "https://blog.strarry.top/avatar.jpg",
+        desc: "Code | Think | Share | Repeat",
+        url: "https://blog.strarry.top/",
+      }
     ],
   },
     // 丢失

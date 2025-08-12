@@ -6,22 +6,24 @@
         <a :href="theme.siteMeta.author.link" class="author link" target="_blank">
           {{ theme.siteMeta.author.name }}
         </a>
-        <a class="icp link" href="https://icp.gov.moe/?keyword=20259222" target="_blank">
+        <a class="icp link" href="https://beian.miit.gov.cn/" target="_blank">
           <i class="iconfont icon-safe" />
           {{ theme.icp }}
         </a>
       </div>
       <div class="meta">
-        <!--
+        
+        <!-- <a class="power link" href="https://www.netlify.com">
+          <img width="" height="37" alt="This site is powered by Netlify." src="https://www.netlify.com/v3/img/components/netlify-light.svg" />
+        </a> -->
         <a class="power link" href="https://vitepress.dev/" target="_blank">
           <span class="by">Powered by</span>
           <span class="name">VitePress</span>
         </a>
-        <a class="theme link" href="https://github.com/imsyy/vitepress-theme-curve" target="_blank">
+        <a class="theme link" href="https://github.com/kazukokawagawa/vitepress-theme-curve" target="_blank">
           <span class="name">主题</span>
         </a>
-        -->
-        <a class="rss link" href="https://chiyu.it/rss.xml" target="_blank">
+        <a class="rss link" href="https://blog.imbee.top/rss.xml" target="_blank">
           <i class="iconfont icon-rss" />
           <span class="name">订阅</span>
         </a>
