@@ -199,9 +199,9 @@ export const themeConfig = {
           url: "https://meting-api.mfawa.top",
         },
         {
-          icon: "https://cdn.oplist.org/gh/OpenListTeam/Logo@main/logo.svg",
+          icon: "https://cdn.jsdmirror.com/gh/OpenListTeam/Logo@main/logo.svg",
           name: "OpenList",
-          url: "https://op.mfawa.top",
+          url: "https://file.mfawa.top",
         }
       ],
     },
@@ -302,7 +302,7 @@ export const themeConfig = {
           { text: "热榜", link: "https://hot.mfawa.top", newTab: true },
           { text: "热榜 API", link: "https://hot-api.mfawa.top", newTab: true },
           { text: "Meting API", link: "https://meting-api.mfawa.top", newTab: true },
-          { text: "OpenList", link: "https://op.mfawa.top", newTab: true },
+          { text: "OpenList", link: "https://file.mfawa.top", newTab: true },
         ],
       },
     ],
