@@ -66,7 +66,7 @@ export const themeConfig = {
         {
           crossorigin: "anonymous",
           rel: "stylesheet",
-          href: "https://cdn.jsdmirror.com/gh/FrecklyComb1728/blog@main/public/fonts/xiaolai.css",
+          href: "https://jsdelivr.topthink.com/gh/FrecklyComb1728/blog@main/public/fonts/xiaolai.css",
         },
       ],
       // HarmonyOS font
@@ -152,6 +152,11 @@ export const themeConfig = {
           icon: "/images/logo/logo.svg",
           name: "主页",
           url: "https://imbee.top",
+        },
+        {
+          icon: "/images/logo/other/nb-byoip.ico",
+          name: "NB优选",
+          url: "https://www.byoip.top",
         },
         {
           icon: "/images/logo/other/hot.png",
@@ -271,9 +276,10 @@ export const themeConfig = {
         items: [
           { text: "本站源码", link: "https://github.com/FrecklyComb1728/blog", newTab: true },
           { text: "个人主页", link: "https://imbee.top", newTab: true },
-          { text: "工具箱", link: "https://tools.bee-zh.cn/", newTab: true },
-          { text: "My API", link: "https://api.mfawa.top/", newTab: true },
-          { text: "让我为你搜索", link: "https://mfawa.top/", newTab: true },
+          { text: "NB优选", link: "https://www.byoip.top", newTab: true },
+          { text: "工具箱", link: "https://tools.bee-zh.cn", newTab: true },
+          { text: "My API", link: "https://api.mfawa.top", newTab: true },
+          { text: "让我为你搜索", link: "https://mfawa.top", newTab: true },
 
         ],
       },
@@ -388,7 +394,7 @@ export const themeConfig = {
   music: {
     enable: true,
     // url
-    url: "https://meting.20100907.xyz/api",
+    url: "https://api.qijieya.cn/meting/",
     // id
     id: 528423473,
     // netease / tencent / kugou
