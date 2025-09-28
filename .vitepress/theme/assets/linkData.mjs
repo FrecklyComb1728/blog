@@ -30,7 +30,7 @@ const linkData = [
         name: "mxdyeah's blog",
         avatar: "/images/friend/mxdyeah.jpg",
         desc: "一名痴迷技术的学生",
-        url: "https://blog.mxdyeah.top/",
+        url: "https://blog.mxdyeah.com/",
       },
       {
         name: "Xiaolanの神秘小窝",
