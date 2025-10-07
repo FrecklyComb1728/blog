@@ -58,3 +58,16 @@ onMounted(() => {
   initTwikoo();
 });
 </script>
+
+<style>
+#twikoo .el-loading-mask {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#twikoo .el-loading-spinner {
+    display: inline-flex;
+    width: unset
+}
+</style>
