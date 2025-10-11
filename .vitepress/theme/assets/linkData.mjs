@@ -61,12 +61,18 @@ const linkData = [
         avatar: "https://blog.strarry.top/avatar.jpg",
         desc: "Code | Think | Share | Repeat",
         url: "https://blog.strarry.top/",
-      }
+      },
       {
         name: "qiqinb's Blog",
         avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2810132369&spec=5",
         desc: "有钱终成眷属，没钱亲眼目睹",
         url: "https://blog.qiqinb.cn",
+      },
+      {
+        name: "自由の博客",
+        avatar: "https://img.fastmirror.net/s/2025/10/02/68de75caaf3fc.jpeg",
+        desc: "一名初中生的博客，\n热爱生活，热爱技术",
+        url: "https://blog.free2011.top",
       }
     ],
   },
