@@ -60,13 +60,22 @@ export const themeConfig = {
           href: "https://cdn.jsdmirror.com",
         },
       ],
+      // 茶卡盐湖的夜字体
+      [
+        "link",
+        {
+          crossorigin: "anonymous",
+          rel: "stylesheet",
+          href: "https://cdn.jsdmirror.com/gh/FrecklyComb1728/blog@main/public/fonts/CKYHDY.css",
+        },
+      ],
       // 小赖字体
       [
         "link",
         {
           crossorigin: "anonymous",
           rel: "stylesheet",
-          href: "https://jsdelivr.topthink.com/gh/FrecklyComb1728/blog@main/public/fonts/xiaolai.css",
+          href: "https://cdn.jsdmirror.com/gh/FrecklyComb1728/blog@main/public/fonts/xiaolai.css",
         },
       ],
       // HarmonyOS font
@@ -329,7 +338,7 @@ export const themeConfig = {
     // https://twikoo.js.org/
     twikoo: {
       // 必填，若不想使用 CDN，可以使用 pnpm add twikoo 安装并引入
-      js: "https://cdn.jsdmirror.cn/npm/twikoo@1.6.42/dist/twikoo.all.min.js",
+      js: "https://cdn.jsdmirror.cn/npm/twikoo@1.6.42/dist/twikoo.min.js",
       envId: "https://twikoo.mfawa.top",
       // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
       region: "",

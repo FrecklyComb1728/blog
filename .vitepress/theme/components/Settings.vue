@@ -19,6 +19,12 @@
           <span class="set-label">全站字体</span>
           <div class="set-options">
             <span
+              :class="['options', { choose: fontFamily === 'CKYHDY' }]"
+              @click="fontFamily = 'CKYHDY'"
+            >
+              茶卡盐湖的夜
+            </span>
+            <span
               :class="['options', { choose: fontFamily === 'xlfont' }]"
               @click="fontFamily = 'xlfont'"
             >

@@ -21,11 +21,11 @@ export const mainStore = defineStore("main", {
         direction: "down",
       },
       // 页脚可见性
-      footerIsShow: false,
+      footerIsShow: true,
       // 中控台显示
       controlShow: false,
       // 搜索框显示
-      searchShow: false,
+      searchShow: true,
       // 个性化配置显示
       showSeetings: false,
       // 播放器数据
@@ -43,7 +43,7 @@ export const mainStore = defineStore("main", {
       // 背景模糊
       backgroundBlur: false,
       // 全站字体
-      fontFamily: "xlfont",
+      fontFamily: "CKYHDY",
       // 全站字体大小
       fontSize: isMobile ? 16 : 17,
       // 信息显示位置
@@ -92,7 +92,7 @@ export const mainStore = defineStore("main", {
 
       // 禁止壁纸模式切换
       if (this.backgroundType === "image") {
-        if (typeof $message !== "undefined") { 
+        if (typeof $message !== "undefined") {
           $message.warning("无法在壁纸模式下切换明暗模式", {
             duration: 1500,
           });
@@ -109,7 +109,7 @@ export const mainStore = defineStore("main", {
       this.updateActualThemeValue();
 
       // 弹窗提示
-      if (typeof $message !== "undefined") { 
+      if (typeof $message !== "undefined") {
         const text =
           this.themeType === "light"
             ? "浅色模式"
@@ -146,23 +146,23 @@ export const mainStore = defineStore("main", {
       } else {
         root.style.setProperty('--cursor-bg-color', '#fff');
       }
-      
+
       if (actualTheme === 'dark') {
-          root.classList.add('dark');
-          root.classList.remove('light');
+        root.classList.add('dark');
+        root.classList.remove('light');
       } else {
-          root.classList.add('light');
-          root.classList.remove('dark');
+        root.classList.add('light');
+        root.classList.remove('dark');
       }
     },
 
     // 新增action: 外部触发更新主题（用于系统主题变化）
     triggerThemeUpdate() {
-        if (typeof window === 'undefined') return; // 确保在客户端
-        this.updateActualThemeValue();
-        if (appCursorInstance) {
-            appCursorInstance.setThemeType(this.themeType);
-        }
+      if (typeof window === 'undefined') return; // 确保在客户端
+      this.updateActualThemeValue();
+      if (appCursorInstance) {
+        appCursorInstance.setThemeType(this.themeType);
+      }
     }
   },
   // 数据持久化
@@ -181,7 +181,7 @@ export const mainStore = defineStore("main", {
         "fontSize",
         "infoPosition",
         "backgroundUrl",
-      ], 
+      ],
     },
   ],
 });
