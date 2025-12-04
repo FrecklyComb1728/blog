@@ -17,3 +17,29 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  Cache-Control = "max-age=86400"
+  Server = "Fuck Web Server"
+
+[[headers]]
+  for = "/posts/*"
+  [headers.values]
+  Cache-Control = "max-age=604800"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+  Cache-Control = "max-age=2592000"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+  Cache-Control = "max-age=2592000"
+
+[[headers]]
+  for = "/redirect"
+  [headers.values]
+  Cache-Control = "max-age=2592000"

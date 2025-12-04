@@ -3,8 +3,26 @@
   "framework": "vitepress",
   "outputDirectory": "./.vitepress/dist",
   "rewrites": [
-    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/feed.xml", "destination": "/feed.xml" },
-    { "source": "/:path*", "destination": "/index.html" }
+    {"source": "/sitemap.xml","destination": "/sitemap.xml"},
+    {"source": "/feed.xml","destination": "/feed.xml"},
+    {"source": "/:path*","destination": "/index.html"}
+  ],
+  "headers": [
+    {"source": "/(.*)","headers": 
+      [{"key": "Cache-Control","value": "max-age=86400"},
+       {"key": "Server","value": "Fuck Web Server"  }]
+    },
+    {"source": "/posts/(.*)","headers": 
+      [{"key": "Cache-Control","value": "max-age=604800"}]
+    },
+    {"source": "/images/(.*)","headers": 
+      [{"key": "Cache-Control","value": "max-age=2592000"}]
+    },
+    {"source": "/assets/(.*)","headers": 
+      [{"key": "Cache-Control","value": "max-age=2592000"}]
+    },
+    {"source": "/redirect","headers": 
+    [{"key": "Cache-Control","value": "max-age=2592000"}]
+    }
   ]
 }
