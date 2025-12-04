@@ -24,13 +24,13 @@ const linkData = [
         name: "池鱼小栈",
         avatar: "/images/friend/chiyu.jpg",
         desc: "跨过晨昏线，便是永夜。",
-        url: "https://t0.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=https://chiyu.it/",
+        url: "https://chiyu.it/",
       },
       {
         name: "mxdyeah's blog",
         avatar: "/images/friend/mxdyeah.jpg",
         desc: "一名痴迷技术的学生",
-        url: "https://t0.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=https://blog.mxdyeah.com/",
+        url: "https://blog.mxdyeah.com/",
       },
       {
         name: "Xiaolanの神秘小窝",
@@ -78,7 +78,7 @@ const linkData = [
         name: "wyf9's Blog",
         avatar: "https://t0.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=https://wyf9.top",
         desc: "什么都有的个人blog？",
-        url: "https://blog.free2011.top",
+        url: "https://wyf9.top",
       }
     ],
   },
