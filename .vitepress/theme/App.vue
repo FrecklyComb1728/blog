@@ -142,7 +142,7 @@ const changeSiteThemeType = () => {
 const changeSiteFont = () => {
   try {
     const htmlElement = document.documentElement;
-    htmlElement.classList.remove("vsans", "hmos", "xlfont");
+    htmlElement.classList.remove("vsans", "hmos", "xiaolai");
     htmlElement.classList.add(fontFamily.value);
     htmlElement.style.fontSize = fontSize.value + "px";
   } catch (error) {

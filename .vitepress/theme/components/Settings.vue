@@ -25,8 +25,8 @@
               茶卡盐湖的夜
             </span>
             <span
-              :class="['options', { choose: fontFamily === 'xlfont' }]"
-              @click="fontFamily = 'xlfont'"
+              :class="['options', { choose: fontFamily === 'xiaolai' }]"
+              @click="fontFamily = 'xiaolai'"
             >
               小赖字体
             </span>
