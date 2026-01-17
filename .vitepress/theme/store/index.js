@@ -43,7 +43,7 @@ export const mainStore = defineStore("main", {
       // 背景模糊
       backgroundBlur: false,
       // 全站字体
-      fontFamily: "CKYHDY",
+      fontFamily: "xiaolai",
       // 全站字体大小
       fontSize: isMobile ? 16 : 17,
       // 信息显示位置
