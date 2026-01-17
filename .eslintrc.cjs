@@ -21,11 +21,8 @@ module.exports = {
   },
   plugins: ["vue"],
   rules: {
-    // 使用双引号
     quotes: ["warn", "double"],
-    // 导入后缀名
     "import/extensions": "off",
-    // 禁用 console
     "no-console": "off",
   },
 };
