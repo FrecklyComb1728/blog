@@ -1,0 +1,9 @@
+{
+  "name": "mifeng-blog",
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build",
+  "assets": {
+    "directory": "./.vitepress/dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
