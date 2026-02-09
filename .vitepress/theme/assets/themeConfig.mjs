@@ -184,7 +184,7 @@ export const themeConfig = {
         },
         {
           icon: "/images/logo/logo.svg",
-          name: "My API（暂未上线）",
+          name: "My API",
           url: "https://api.mfawa.top/",
         },
         {

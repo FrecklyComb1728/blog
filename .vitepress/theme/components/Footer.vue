@@ -13,9 +13,6 @@
       </div>
       <div class="meta">
         
-        <!-- <a class="power link" href="https://www.netlify.com">
-          <img width="" height="37" alt="This site is powered by Netlify." src="https://www.netlify.com/v3/img/components/netlify-light.svg" />
-        </a> -->
         <a class="power link" href="https://vitepress.dev/" target="_blank">
           <span class="by">Powered by</span>
           <span class="name">VitePress</span>
