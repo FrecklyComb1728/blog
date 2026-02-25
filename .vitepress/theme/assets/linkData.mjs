@@ -79,6 +79,30 @@ const linkData = [
         avatar: "https://t0.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=https://wyf9.top",
         desc: "什么都有的个人blog？",
         url: "https://wyf9.top",
+      },
+      {
+        name: "Yunsen的小窝",
+        avatar: "https://img.alicdn.com/bao/uploaded/i4/O1CN01TWOpM42DSyY5nC0hM_!!0-mtopupload.jpg",
+        desc: "行之，皆为乐意",
+        url: "https://blog.imysen.com",
+      },
+      {
+        name: "xhc861's Blog",
+        avatar: "/images/friend/xhc861.webp",
+        desc: "博客，远不止于博客~",
+        url: "https://xhc861.top",
+      },
+      {
+        name: "叶子のBlog",
+        avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=319213657&spec=0",
+        desc: "饭歹伤胃，话多伤心",
+        url: "https://blog.goshujin.top",
+      },
+      {
+        name: "LiyaoUniversity",
+        avatar: "https://weavatar.com/avatar/b828f753a00e01e4d3ccc761aa0817d9e2fc47d0610d602bc42329f111374973?d=letter&letter=l",
+        desc: "一座普通，或者不普通的大学",
+        url: "https://liyao.edu.kg",
       }
     ],
   },
