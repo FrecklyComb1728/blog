@@ -17,7 +17,7 @@
         <a href="https://github.com/FrecklyComb1728" target="_blank" class="social-link">
           <i class="iconfont icon-github"></i>
         </a>
-        <a href="mailto:me@imbee.top" target="_blank" class="social-link">
+        <a href="mailto:me@1s.fan" target="_blank" class="social-link">
           <i class="iconfont icon-email"></i>
         </a>
       </div>
