@@ -103,6 +103,12 @@ const linkData = [
         avatar: "https://weavatar.com/avatar/b828f753a00e01e4d3ccc761aa0817d9e2fc47d0610d602bc42329f111374973?d=letter&letter=l",
         desc: "一座普通，或者不普通的大学",
         url: "https://liyao.edu.kg",
+      },
+      {
+        name: "name: xiaoli's blog",
+        avatar: "https://img.xiaoli.top/b_ebef16bd5df9016c8b030733c307d528.jpg",
+        desc: "个人经验分享",
+        url: "https://blog.xiaoli.top",
       }
     ],
   },
