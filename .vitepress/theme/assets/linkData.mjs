@@ -109,6 +109,12 @@ const linkData = [
         avatar: "https://img.xiaoli.top/b_ebef16bd5df9016c8b030733c307d528.jpg",
         desc: "个人经验分享",
         url: "https://blog.xiaoli.top",
+      },
+      {
+        name: "Esyka's Blog",
+        avatar: "https://www.esyka.top/images/logo.png",
+        desc: "海阔凭鱼跃，天高任鸟飞",
+        url: "https://www.esyka.top",
       }
     ],
   },
