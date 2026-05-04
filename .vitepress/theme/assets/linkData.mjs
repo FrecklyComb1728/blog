@@ -115,7 +115,13 @@ const linkData = [
         avatar: "https://www.esyka.top/images/logo.png",
         desc: "海阔凭鱼跃，天高任鸟飞",
         url: "https://www.esyka.top",
-      }
+      },
+      {
+        name: "UpXuu's blog",
+        avatar: "https://upxuu.com/images/20260214145619.jpg",
+        desc: "逐光而上",
+        url: "https://upxuu.com",
+      },
     ],
   },
     // 丢失
